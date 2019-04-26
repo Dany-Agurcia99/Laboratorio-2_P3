@@ -170,7 +170,7 @@ void op3(){
                 	}
                 	cout<<endl;
         }
-	}else if(cadena.length==3){
+	}else if(cadena.length()==3){
 		for(int i=0;i<cadena.length();i++){
                 	seleccionado=cadena[i];
                 	cout<<seleccionado;
