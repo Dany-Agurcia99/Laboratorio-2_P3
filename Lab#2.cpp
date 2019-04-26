@@ -176,7 +176,7 @@ void op3(){
                 	cout<<seleccionado;
                 	for(int j=1;j<cadena.length();j++){
                         	cout<<cadena[j];
-				for(int k==2;k<cadena.length();k++){
+				for(int k=2;k<cadena.length();k++){
 					cout<<cadena[k];
 				}
                 }
@@ -188,9 +188,9 @@ void op3(){
                         cout<<seleccionado;
                         for(int j=1;j<cadena.length();j++){
                                 cout<<cadena[j];
-                                for(int k==2;k<cadena.length();k++){
+                                for(int k=2;k<cadena.length();k++){
                                         cout<<cadena[k];
-					for(int l==3;l<cadena.length();l++){
+					for(int l=3;l<cadena.length();l++){
 						cout<<cadena[l];
 					}
                                 }
@@ -202,11 +202,11 @@ void op3(){
                         cout<<seleccionado;
                         for(int j=1;j<cadena.length();j++){
                                 cout<<cadena[j];
-                                for(int k==2;k<cadena.length();k++){
+                                for(int k=2;k<cadena.length();k++){
                                         cout<<cadena[k];
-                                        for(int l==3;l<cadena.length();l++){
+                                        for(int l=3;l<cadena.length();l++){
                                                 cout<<cadena[l];
-						for(int m==4;m<cadena.length();m++){
+						for(int m=4;m<cadena.length();m++){
 							cout<<cadena[m];
 						}
                                         }
@@ -219,13 +219,13 @@ void op3(){
                         cout<<seleccionado;
                         for(int j=1;j<cadena.length();j++){
                                 cout<<cadena[j];
-                                for(int k==2;k<cadena.length();k++){
+                                for(int k=2;k<cadena.length();k++){
                                         cout<<cadena[k];
-                                        for(int l==3;l<cadena.length();l++){
+                                        for(int l=3;l<cadena.length();l++){
                                                 cout<<cadena[l];
-                                                for(int m==4;m<cadena.length();m++){
+                                                for(int m=4;m<cadena.length();m++){
                                                         cout<<cadena[m];
-							for(int n==5;n<cadena.length();n++){
+							for(int n=5;n<cadena.length();n++){
 								cout<<cadena[n];
 							}
                                                 }
