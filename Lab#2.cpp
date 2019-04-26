@@ -168,7 +168,7 @@ void op3(){
                 	for(int j=1;j<cadena.length();j++){
                         	cout<<cadena[j];
                 	}
-                	cout<<endl;
+			cout<<endl;
 		}
         }
 	else if(cadena.length()==3){
@@ -180,9 +180,9 @@ void op3(){
 				for(int k=2;k<cadena.length();k++){
 					cout<<cadena[k];
 				}
+				cout<<endl;
 			}
                 }
-                cout<<endl;
         }
 	else if(cadena.length()==4){
 		for(int i=0;i<cadena.length();i++){
@@ -195,10 +195,10 @@ void op3(){
 					for(int l=3;l<cadena.length();l++){
 						cout<<cadena[l];
 					}
+					cout<<endl;
                                 }
                 	}
 		}
-		cout<<endl;
 	}	
 	else if(cadena.length()==5){
 		for(int i=0;i<cadena.length();i++){
@@ -213,11 +213,11 @@ void op3(){
 						for(int m=4;m<cadena.length();m++){
 							cout<<cadena[m];
 						}
+						cout<<endl;
                                         }
                                 }
-                	}
+              		}
 		}
-		cout<<endl;
 	}
 	else if(cadena.length()==6){
 		for(int i=0;i<cadena.length();i++){
@@ -234,12 +234,12 @@ void op3(){
 							for(int n=5;n<cadena.length();n++){
 								cout<<cadena[n];
 							}
+							cout<<endl;
                                                 }
                                         }
                                 }
                 	}
 		}
-                cout<<endl;
 	}
 }
 
