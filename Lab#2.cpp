@@ -169,8 +169,9 @@ void op3(){
                         	cout<<cadena[j];
                 	}
                 	cout<<endl;
+		}
         }
-	}else if(cadena.length()==3){
+	else if(cadena.length()==3){
 		for(int i=0;i<cadena.length();i++){
                 	seleccionado=cadena[i];
                 	cout<<seleccionado;
@@ -179,10 +180,11 @@ void op3(){
 				for(int k=2;k<cadena.length();k++){
 					cout<<cadena[k];
 				}
+			}
                 }
                 cout<<endl;
         }
-	}else if(cadena.length()==4){
+	else if(cadena.length()==4){
 		for(int i=0;i<cadena.length();i++){
                         seleccionado=cadena[i];
                         cout<<seleccionado;
@@ -194,9 +196,11 @@ void op3(){
 						cout<<cadena[l];
 					}
                                 }
-                }
-                cout<<endl;
-	}else if(cadena.length()==5){
+                	}
+		}
+		cout<<endl;
+	}	
+	else if(cadena.length()==5){
 		for(int i=0;i<cadena.length();i++){
                         seleccionado=cadena[i];
                         cout<<seleccionado;
@@ -211,7 +215,9 @@ void op3(){
 						}
                                         }
                                 }
-                }
+                	}
+		}
+	}
                 cout<<endl;
 	}else if(cadena.length()==6){
 		for(int i=0;i<cadena.length();i++){
@@ -231,7 +237,8 @@ void op3(){
                                                 }
                                         }
                                 }
-                }
+                	}
+		}
                 cout<<endl;
 	}
 }
