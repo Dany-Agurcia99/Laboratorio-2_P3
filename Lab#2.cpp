@@ -155,7 +155,15 @@ void op2(){
 }
 
 void op3(){
-	
+	string cadena;
+	cout<<"Ingrese la cadena de letras sin repetir"<<endl;
+	cin>>cadena;
+	for(int i=0;i<cadena.length();i++){
+
+		for(int j=0;j<cadena.length();j++){
+
+		}
+	}
 }
 
 /*void validacion(string cadena){
