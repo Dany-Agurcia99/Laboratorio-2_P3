@@ -156,16 +156,83 @@ void op2(){
 
 void op3(){
 	string cadena;
-	cout<<"Ingrese la cadena de letras sin repetir"<<endl;
+	cout<<"Ingrese la cadena de letras sin repetir: ";
 	cin>>cadena;
 	char seleccionado;
-	for(int i=0;i<cadena.length();i++){
-		seleccionado=cadena[i];
-		cout<<seleccionado;
-		for(int j=1;j<cadena.length();j++){
-			cout<<cadena[j];
-		}
-		cout<<endl;
+	if(cadena.length()==1){
+		cout<<cadena<<endl;
+	}else if(cadena.length()==2){
+		for(int i=0;i<cadena.length();i++){
+                	seleccionado=cadena[i];
+                	cout<<seleccionado;
+                	for(int j=1;j<cadena.length();j++){
+                        	cout<<cadena[j];
+                	}
+                	cout<<endl;
+        }
+	}else if(cadena.length==3){
+		for(int i=0;i<cadena.length();i++){
+                	seleccionado=cadena[i];
+                	cout<<seleccionado;
+                	for(int j=1;j<cadena.length();j++){
+                        	cout<<cadena[j];
+				for(int k==2;k<cadena.length();k++){
+					cout<<cadena[k];
+				}
+                }
+                cout<<endl;
+        }
+	}else if(cadena.length()==4){
+		for(int i=0;i<cadena.length();i++){
+                        seleccionado=cadena[i];
+                        cout<<seleccionado;
+                        for(int j=1;j<cadena.length();j++){
+                                cout<<cadena[j];
+                                for(int k==2;k<cadena.length();k++){
+                                        cout<<cadena[k];
+					for(int l==3;l<cadena.length();l++){
+						cout<<cadena[l];
+					}
+                                }
+                }
+                cout<<endl;
+	}else if(cadena.length()==5){
+		for(int i=0;i<cadena.length();i++){
+                        seleccionado=cadena[i];
+                        cout<<seleccionado;
+                        for(int j=1;j<cadena.length();j++){
+                                cout<<cadena[j];
+                                for(int k==2;k<cadena.length();k++){
+                                        cout<<cadena[k];
+                                        for(int l==3;l<cadena.length();l++){
+                                                cout<<cadena[l];
+						for(int m==4;m<cadena.length();m++){
+							cout<<cadena[m];
+						}
+                                        }
+                                }
+                }
+                cout<<endl;
+	}else if(cadena.length()==6){
+		for(int i=0;i<cadena.length();i++){
+                        seleccionado=cadena[i];
+                        cout<<seleccionado;
+                        for(int j=1;j<cadena.length();j++){
+                                cout<<cadena[j];
+                                for(int k==2;k<cadena.length();k++){
+                                        cout<<cadena[k];
+                                        for(int l==3;l<cadena.length();l++){
+                                                cout<<cadena[l];
+                                                for(int m==4;m<cadena.length();m++){
+                                                        cout<<cadena[m];
+							for(int n==5;n<cadena.length();n++){
+								cout<<cadena[n];
+							}
+                                                }
+                                        }
+                                }
+                }
+                cout<<endl;
 	}
 }
 
