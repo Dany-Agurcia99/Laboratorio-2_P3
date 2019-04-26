@@ -158,11 +158,14 @@ void op3(){
 	string cadena;
 	cout<<"Ingrese la cadena de letras sin repetir"<<endl;
 	cin>>cadena;
+	char seleccionado;
 	for(int i=0;i<cadena.length();i++){
-
-		for(int j=0;j<cadena.length();j++){
-
+		seleccionado=cadena[i];
+		cout<<seleccionado;
+		for(int j=1;j<cadena.length();j++){
+			cout<<cadena[j];
 		}
+		cout<<endl;
 	}
 }
 
